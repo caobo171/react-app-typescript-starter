@@ -13,6 +13,7 @@
     "resolveJsonModule": true,
     "isolatedModules": false,
     "noEmit": true,
+    "types": ["react", "jest"],
     "jsx": "preserve",
     "lib": [
       "es2018",
