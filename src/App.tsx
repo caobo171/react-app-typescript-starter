@@ -1,4 +1,7 @@
 import React from 'react'
+import Test from '@pages/Test'
+import { Provider } from 'react-redux';
+import store from '@store/store';
 
 
 const App = () => {
@@ -6,7 +9,10 @@ const App = () => {
 
 
   return (
-    <div>Testing</div>
+    <Provider store={store}>
+<Test/>
+    </Provider>
+    
   );
 
 }
